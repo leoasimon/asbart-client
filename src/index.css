@@ -2,6 +2,11 @@
   --green: #d0f4de;
   --yellow: #fcf6bd;
   --blue: #a9def9;
+
+  --gallery-item-lg: 280px;
+  --gallery-item-md: 230px;
+  --gallery-item-sm: 180px;
+  --gallery-item-min: 100px;
 }
 
 * {
@@ -11,4 +16,10 @@
 body {
   margin: 0;
   border: solid black 1px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
