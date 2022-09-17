@@ -4,12 +4,12 @@
   min-height: 99vh;
   display: grid;
   grid-template-columns: [margin-left] 64px [side] 100px [content] 1fr [margin-right] 64px;
-  grid-template-rows: [margin-top] 64px [header] 100px [content] 1fr [margin-bottom] 64px;
+  grid-template-rows: [margin-top] 64px [header] 100px [menu] 64px [content] 1fr [margin-bottom] 64px;
 }
 
 .vertical-line {
   grid-column: 2 / 3;
-  grid-row: 1 / 5;
+  grid-row: 1 / 6;
   background-color: var(--blue);
 }
 
@@ -25,8 +25,14 @@
   background-color: var(--green);
 }
 
-main {
+.layout--menu {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
+  background-color: beige;
+}
+
+main {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
   border: solid red 1px;
 }
