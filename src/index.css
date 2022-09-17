@@ -1,0 +1,14 @@
+:root {
+  --green: #d0f4de;
+  --yellow: #fcf6bd;
+  --blue: #a9def9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  border: solid black 1px;
+}
