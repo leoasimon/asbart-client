@@ -2,6 +2,9 @@
   --green: #d0f4de;
   --yellow: #fcf6bd;
   --blue: #a9def9;
+  --main-bg: black;
+
+  --stripe-width: 162px;
 
   --gallery-item-lg: 280px;
   --gallery-item-md: 230px;

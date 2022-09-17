@@ -5,7 +5,7 @@ import Layout from "./components/Layout";
 const placeholderElements = Array.from({ length: 15 }).map((_, i) => {
   return {
     key: "" + i,
-    value: <div />,
+    value: <img src="https://random.imagecdn.app/500/500" />,
   };
 });
 

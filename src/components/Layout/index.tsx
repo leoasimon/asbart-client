@@ -10,9 +10,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="layout__container">
       <div className="vertical-line" />
-      <div className="horizontal-line" />
-      <div className="intersection" />
-      <div className="layout--menu">Menu</div>
+      <div className="sticky-part">
+        <div className="horizontal-line" />
+        <div className="intersection" />
+        <div className="layout--menu">Menu</div>
+      </div>
       <main>{children}</main>
     </div>
   );
